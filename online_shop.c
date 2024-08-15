@@ -8,7 +8,7 @@ typedef struct {
    char name[100];
    double price;
    int quantity, sold;
-} Dori; // Keyinchalik struct kalit so'zidan foydalanmaslik uchun typedef dan foydalanildi
+} Dori; // Keyinchalik struct kalit so'zidan foydalanmaslik uchun typedef
 
 
 void filter(Dori *dorilar, int len); // Dorilarni narx bo'yicha filterlaydigan funksiyaning declaration qismi
